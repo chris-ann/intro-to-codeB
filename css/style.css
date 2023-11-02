@@ -52,7 +52,8 @@ body {
     grid-column: 2;
 }
 
-.moon-trip, .pluto-trip {
+.moon-trip,
+.pluto-trip {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 50px;
@@ -67,6 +68,42 @@ body {
     grid-column: 2;
     grid-row: 1;
     text-align: right;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    margin-bottom: 17px
+}
+
+nav ul a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul a:hover {
+    color: #F3D9B5;
+}
+
+.primary-nav {
+    display: flex;
+    justify-content: space-between;
+    grid-gap: 30px;
+}
+
+.active {
+    text-decoration: underline wavy;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+model-viewer {
+    width: 500px;
+    height: 500px;
 }
 
 h1 {
